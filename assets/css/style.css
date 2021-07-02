@@ -27,11 +27,14 @@ body{
 
 h3{
     margin-bottom: 20px;
+    color: orange;
 }
 
-
-
-
+p{
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #444444;
+}
 
 .half-width{
     width: 40%;
@@ -42,7 +45,7 @@ h3{
 
 .half-width img{
     width: 100%;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .top-section{
@@ -52,4 +55,68 @@ h3{
 
 section{
     height: 500px;
+    padding-bottom: 100px;
+}
+
+.button{
+    text-decoration: none;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background: linear-gradient( 45deg, #FF7600, #FFA900);
+    color: white;
+    font-weight: 700;
+}
+
+.button:hover{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 35px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.middle-section{
+    background-image: url(../image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.box-design{
+    box-shadow: 15px 15px 40px #92967D;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+    
+}
+
+.paragraph{
+    padding-right: 20px;
+}
+
+.last-section{
+    background-image: url(../image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#border-style{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #E1701A, #F7A440);
+    border-image-slice: 1;
+}
+
+#border-style1{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #126E82, #51C4D3);
+    border-image-slice: 1;
+
+}
+
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
